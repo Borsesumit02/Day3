@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Hovering card </title>
+  </head>
+  <style>
+ .face{
+   height: 200px;
+   width: 200px;
+   background-color:orange;
+   border-radius:50%;
+ }
+  .lefteye,.righteye{
+    background-color:black;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    display: inline-block;
+    position:absolute;
+   left:40px;
+   top:60px;
+  }
+ .righteye{
+   left:140px;
+ }
+.mouth{
+  height:40px;
+  width:100px;
+  background-color:red;
+  border-radius:0 0 50px 50px;
+  position: absolute;
+  left:60px;
+  top:140px;
+  
+}
+.face:hover{
+  background-color: yellow;
+  
+}
+.righteye:hover{
+  background-color:red;
+  
+}
+
+.lefteye:hover{
+  background-color:red;
+  
+}
+  </style>
+  
+  
+  <body>
+    <div class="face ">
+      <div class="botheye"> 
+      <div class="lefteye"></div>
+      <dive class="righteye"></div>
+      
+      </div>
+      <div class="mouth">
+        
+      </div>
+      
+    </div>
+  </body>
+  
+</html>
