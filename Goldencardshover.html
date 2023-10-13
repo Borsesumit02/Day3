@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Hovering card </title>
+  </head>
+  <style>
+ 
+  
+    .card{
+      height:400px;
+      width:300px;
+      border:2px solid black;
+      display:inline-block;
+      margin:5px;
+      border-radius:5px;
+      box-shadow:0 4px 8px black;
+      transition:1s ease-in-out;
+    }
+    img{
+      width:100%;
+     border-radius:5px 5px 0 0;
+    }
+    .dis{
+      
+      margin:5px;
+    }
+    .card:active{
+      box-shadow:0 8px 16px goldenrod;
+      transform:rotate(45deg);
+      background-color: goldenrod;
+    }
+    
+  </style>
+  
+  
+  <body>
+    
+    <div>
+    <div class="card">
+      <img src="./male1.png">
+      <div class="dis">
+      <h3>Sumit Borse</h3>
+      <p>Agent of T.V.A</p>
+      </div>
+    </div>
+    <div class="card">   
+      <img src="./male2.png">
+      <div class="dis">
+      <h3>Nick Fury</h3>
+      <p>Agent of S.H.I.L.D.</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  </body>
+  
+</html>
